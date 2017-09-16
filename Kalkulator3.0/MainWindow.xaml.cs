@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Kalkulator3._0
+namespace Kalkulator3
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,6 +23,7 @@ namespace Kalkulator3._0
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new WindowViewModel(this);
         }
     }
 }
