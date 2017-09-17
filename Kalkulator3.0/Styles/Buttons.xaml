@@ -218,10 +218,10 @@
                                 <Storyboard>
                                     <DoubleAnimation Storyboard.TargetName="GradientStop1"
                                                      Storyboard.TargetProperty="Offset"
-                                                     From="0.0" To="0.5" Duration="0:0:1"/>
+                                                     To="0.5" Duration="0:0:1"/>
                                     <DoubleAnimation Storyboard.TargetName="GradientStop2"
                                                      Storyboard.TargetProperty="Offset"
-                                                     From="1.0" To="0.5" Duration="0:0:1"/>
+                                                     To="0.5" Duration="0:0:1"/>
                                 </Storyboard>
                             </BeginStoryboard>
                         </EventTrigger>
@@ -230,10 +230,10 @@
                                 <Storyboard>
                                     <DoubleAnimation Storyboard.TargetName="GradientStop1"
                                                      Storyboard.TargetProperty="Offset"
-                                                     From="0.5" To="0.0" Duration="0:0:1"/>
+                                                     To="0.0" Duration="0:0:1"/>
                                     <DoubleAnimation Storyboard.TargetName="GradientStop2"
                                                      Storyboard.TargetProperty="Offset"
-                                                     From="0.5" To="1.0" Duration="0:0:1"/>
+                                                     To="1.0" Duration="0:0:1"/>
                                 </Storyboard>
                             </BeginStoryboard>
                         </EventTrigger>
