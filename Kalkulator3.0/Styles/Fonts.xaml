@@ -29,7 +29,7 @@
     <system:Double x:Key="FontSizeRegular"> 14</system:Double>
     <system:Double x:Key="FontSizeLarge">   20</system:Double>
     <system:Double x:Key="FontSizeXLarge">  24</system:Double>
-    <system:Double x:Key="FontSizeXXLarge"> 30</system:Double>
+    <system:Double x:Key="FontSizeXXLarge"> 40</system:Double>
 
     <system:String x:Key="FontAwesomeSpinnerIcon">&#xf110;</system:String>
     <system:String x:Key="FontAwesomeChatIcon">&#xf075;</system:String>
@@ -40,5 +40,8 @@
     <system:String x:Key="FontAwesomeEllipsisVerticalIcon">&#xf142;</system:String>
     <system:String x:Key="FontAwesomePaperClipIcon">&#xf0c6;</system:String>
     <system:String x:Key="FontAwesomeSmileIcon">&#xf118;</system:String>
-    
+    <system:String x:Key="FontPlusOrMinus">&#xb1;</system:String>
+    <system:String x:Key="FontDivision">&#xf7;</system:String>
+    <system:String x:Key="FontTimesX">&#x00d7;</system:String>
+    <system:String x:Key="FontMinus">&#x2212;</system:String>
 </ResourceDictionary>

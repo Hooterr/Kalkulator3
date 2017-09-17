@@ -2,7 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:Kalkulator3">
 
-    <Color x:Key="BackgroundLight">#efefef</Color>
+    <Color x:Key="BackgroundLight">#F4F4F4</Color>
     <SolidColorBrush x:Key="BackgroundLightBrush" Color="{StaticResource BackgroundLight}" />
 
     <Color x:Key="BackgroundVeryLight">#fafafa</Color>
@@ -19,6 +19,12 @@
 
     <Color x:Key="ForegroundDark">#bdbdbd</Color>
     <SolidColorBrush x:Key="ForegroundDarkBrush" Color="{StaticResource ForegroundDark}" />
+
+    <Color x:Key="ForegroundGrey">#eaeaea</Color>
+    <SolidColorBrush x:Key="ForegroundGreyBrush" Color="{StaticResource ForegroundGrey}" />
+    
+    <Color x:Key="ForegroundVeryGrey">#dadada</Color>
+    <SolidColorBrush x:Key="ForegroundVeryGreyBrush" Color="{StaticResource ForegroundVeryGrey}" />
 
     <Color x:Key="WordBlue">#3099c5</Color>
     <SolidColorBrush x:Key="WordBlueBrush" Color="{StaticResource WordBlue}" />
