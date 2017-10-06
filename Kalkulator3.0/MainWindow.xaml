@@ -10,7 +10,8 @@
         MinHeight="{Binding WindowMinimumHeight}"
         AllowsTransparency="True"
         WindowStyle="None"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen"
+        local:KeyDownProperty.Value="True">
 
     <Window.Resources>
         <Style TargetType="{x:Type local:MainWindow}">
