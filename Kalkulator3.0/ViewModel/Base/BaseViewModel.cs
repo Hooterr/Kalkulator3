@@ -3,13 +3,13 @@ using System;
 using System.ComponentModel;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace Kalkulator3
 {
     /// <summary>
     /// A base view model that fires Property Changed events as needed
     /// </summary>
-    //[ImplementPropertyChanged]
     public class BaseViewModel : INotifyPropertyChanged
     {
         /// <summary>
@@ -40,7 +40,7 @@ namespace Kalkulator3
         protected async Task RunCommand(Expression<Func<bool>> updatingFlag, Func<Task>action)
         {
             // Chceck if the flag property is true (meaning the function is already running)
-            if (updatingFlag.GetPropetyValue())
+            if (updatingFlag.GetPropertyValue())
                 return;
 
             // Set the property flag to true to indicate we are running 

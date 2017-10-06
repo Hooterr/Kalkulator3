@@ -16,7 +16,7 @@ namespace Kalkulator3
             // Get the window
             var Window = (sender as Window);
             Window.Loaded += ((ss, ee) => { (ss as Window).Focus(); });
-            Window.KeyDown += ((ss, ee) => { MessageBox.Show(ee.Key.ToString()); });
+            Window.KeyDown += ((ss, ee) => { IoC.Application.KeyDown(ee.Key); } );
 
         }
     }

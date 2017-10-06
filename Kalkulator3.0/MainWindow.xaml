@@ -61,9 +61,10 @@
 
                                     <!-- Page Content -->
                                     <Border Padding="{Binding InnerContentPadding}"
-                                                ClipToBounds="True"
-                                                CornerRadius="0">
-                                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                                            ClipToBounds="True"
+                                            CornerRadius="0">
+                                        <ContentPresenter Content="{TemplateBinding Content}"
+                                                          />
                                     </Border>
 
                                 </Grid>
@@ -81,8 +82,7 @@
             ResizeBorderThickness="{Binding ResizeBorderThickness}"
             CaptionHeight="{Binding TitleHeight}"
             CornerRadius="0"
-            GlassFrameThickness="0"
-            />
+            GlassFrameThickness="0" />
     </WindowChrome.WindowChrome>
 
     <Grid>
@@ -110,15 +110,16 @@
                 <Viewbox Grid.Row="0"
                          HorizontalAlignment="Right"
                          Margin="0 12">
-                    <TextBlock Text="1396,5"
-                           FontSize="{StaticResource FontSizeXXLarge}"
-                           FontFamily="{StaticResource LatoRegular}"
-                           Foreground="{StaticResource ForegroundLightBrush}" />
+                    <TextBlock DataContext="{Binding ApplicationViewModel, Source={x:Static local:ViewModelLocator.Instance}}"
+                               Text="{Binding MainDisplay}"
+                               FontSize="{StaticResource FontSizeXXLarge}"
+                               FontFamily="{StaticResource LatoRegular}"
+                               Foreground="{StaticResource ForegroundLightBrush}" />
                 </Viewbox>
                 
                 <Viewbox Grid.Row="1"
                          Margin="0 5 0 10"
-                        HorizontalAlignment="Right">
+                         HorizontalAlignment="Right">
                     <TextBlock Text="1995 - 30%"
                                FontFamily="{StaticResource LatoRegular}"
                                FontSize="{StaticResource FontSizeRegular}"
